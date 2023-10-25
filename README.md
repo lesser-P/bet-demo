@@ -7,7 +7,7 @@ npx hardhat help
 npx hardhat test
 REPORT_GAS=true npx hardhat test
 npx hardhat node
-npx hardhat run scripts/deploy.js
+npx hardhat run scripts/partybet-test.js
 ```
 
 该项目目前部署在 mubai 网络上，项目中所有账号均无存在任何价值仅供测试使用。
