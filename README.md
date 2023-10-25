@@ -7,7 +7,7 @@ npx hardhat help
 npx hardhat test
 REPORT_GAS=true npx hardhat test
 npx hardhat node
-npx hardhat run scripts/partybet-test.js
+npx hardhat run scripts/bet.js
 ```
 
 ## 简介
