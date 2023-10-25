@@ -1,8 +1,6 @@
-# Sample Hardhat Project
+# Bet hardhat project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
+这个项目框架使用 hardhat
 
 ```shell
 npx hardhat help
@@ -11,3 +9,7 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
+
+该项目目前部署在 mubai 网络上，项目中所有账号均无存在任何价值仅供测试使用。
+
+该项目在外部有一个 chainlink 定时触发获得当时 BTC 的价格，以此价格来和竞猜价格比对。
