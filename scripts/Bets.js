@@ -3,11 +3,11 @@ const fs = require('fs')
 require('dotenv').config('')
 
 async function main() {
-  const factory = await ethers.getContractFactory('PartyBets')
+  const factory = await ethers.getContractFactory('Bets')
   const contract = await factory.deploy()
   await contract.waitForDeployment()
   console.log('partybet:', contract.target)
-  fs.appendFileSync('./partyconfig.js', `const partybets=${contract.target}`)
+  fs.appendFileSync('./config.js', `const bets=${contract.target}`)
 }
 
 main()

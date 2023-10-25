@@ -2,7 +2,7 @@ const { expect } = require('chai')
 const { ethers } = require('hardhat')
 const { utils, eth } = require('web3')
 require('dotenv').config('')
-const abi = require('../artifacts/contracts/PartyBets.sol/PartyBets.json')
+const abi = require('../artifacts/contracts/Bets.sol/Bets.json')
 
 const partyAddress = '0x5FbDB2315678afecb367f032d93F642f64180aa3'
 const PRIVATE_KEY = '0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80'

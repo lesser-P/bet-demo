@@ -1,6 +1,6 @@
 pragma solidity ^0.8.0;
 
-contract PartyBets {
+contract Bets {
     struct BetRecord {
         //下注信息
         address betAddress;
